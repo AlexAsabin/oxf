@@ -10,7 +10,7 @@ namespace oxf
   {
     public void Configure(IApplicationBuilder app)
     {
-      app.Run(context => context.Response.WriteAsync("Hello Alex, from ASP.NET!"));
+      app.Run(context => context.Response.WriteAsync("Hello Dima, from ASP.NET!"));
     }
   }
 }
